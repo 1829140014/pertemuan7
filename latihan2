@@ -1,0 +1,36 @@
+import tugas
+
+def main():
+
+	t = 20
+	n = 6
+
+	T = tugas.PeriodeGetaran(t, n)
+ 
+	print("Periode Getaran")
+	print("waktu\t: ", t)
+	print("jumlah getaran\t: ", n)
+	print("periode getaran\t = ", T)
+
+	n = 22
+	t = 14
+
+	f = tugas.FrekuensiGetaran(n, t)
+
+	print("\nfrekuensi getaran")
+	print("jumlah getaran\t: ", n)
+	print("waktu\t: ", t)
+	print("frekuensi getaran\t = ", f)
+
+	F = 24
+	S = 26
+
+	W = tugas.usahadanenergi(F, S)
+
+	print("\nusaha dan energi")
+	print("gaya\t: ", F)
+	print("jarak\t: ", S)
+	print("usaha\t = ", W)
+
+if __name__ == "__main__":
+	main()
