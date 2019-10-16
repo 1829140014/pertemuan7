@@ -1,0 +1,10 @@
+import math
+
+def PeriodeGetaran(t, n):
+	return t / n
+
+def FrekuensiGetaran(n, t):
+	return n / t
+
+def usahadanenergi(F, S):
+	return F * S
